@@ -30,8 +30,8 @@
 ## 03 — Python: LangGraph Agent
 
 - [x] Criar ambiente virtual e instalar: `langchain`, `langgraph`, `fastapi`, `uvicorn`
-- [ ] Definir `ReviewState` com `TypedDict`: `diff_files`, `security_comments`, `performance_comments`, `style_comments`, `final_comments`
-- [ ] Implementar nó `security_reviewer` com prompt focado em: SQL injection, secrets, auth, deps vulneráveis
+- [x] Definir `ReviewState` com `TypedDict`: `diff_files`, `security_comments`, `performance_comments`, `style_comments`, `final_comments`
+- [x] Implementar nó `security_reviewer` com prompt focado em: SQL injection, secrets, auth, deps vulneráveis
 - [ ] Implementar nó `performance_reviewer` com prompt focado em: complexidade, N+1, alocações desnecessárias
 - [ ] Implementar nó `style_reviewer` com prompt focado em: nomenclatura, duplicação, responsabilidade única
 - [ ] Implementar nó `aggregator` que consolida e deduplica comentários
